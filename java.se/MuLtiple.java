@@ -13,13 +13,13 @@ public class Multiple {
   }
 }
 
-public class PrintBox {
+class PrintBox {
   public void print(String message) {
     System.out.println("\033[32;4m" + "打印机输出:>>" + message + "\033[0m");
   }
 }
 
-public class Task1 extends PrintBox {
+class Task1 extends PrintBox {
   public void speak() {
     System.out.println("\033[32;4m" + "this is task1 speaking..." + "\033[0m");
   }
@@ -31,7 +31,7 @@ public class Task1 extends PrintBox {
   }
 }
 
-public class Task2 extends PrintBox {
+class Task2 extends PrintBox {
   public void speak() {
     System.out.println("\033[32;4m" + "this is task2 speaking..." + "\033[0m");
   }
